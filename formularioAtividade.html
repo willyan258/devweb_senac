@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrever-se no Spartan</title>
+    <style>
+        .headerLogo{
+            width: 100vw;
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .headerLogo img{
+            width: 170px;
+            height: 190px;
+            justify-content: center;
+        }
+        .form{
+            width: 100vw;
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form form{
+            border-radius: 25px;
+            padding: 50px;
+            color: black;
+            width: 300px;
+            background-color: white;
+            text-align: justify;
+            
+        }
+
+        .label-test {
+            font-family: sans-serif;
+
+        }
+        
+        body{
+            background-color: #171738;
+            color: white;
+            font-family: sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+
+
+        <div class="headerLogo"> <img src="source/img/spartanLogo.png" alt="Logo do Spartan"></div>
+    
+    <div class="form">
+    <form action="">
+        <label class="label-test" for="emailUsuario" name="" id="emailUsuario">Qual é o seu e-mail?</label>
+        <br>
+        <input class="label-test" type="email" name="emailUsuario" id="emailUsuario" placeholder="Insira seu e-mail">
+        <br>
+        <label for="emailUsuario" name="" id="emailUsuario">Confirme seu e-mail</label>
+        <br>
+        <input type="emailConfirmar" name="emailConfirmar" id="emailConfirmar" placeholder="Insira o e-mail novamente">
+        <br>
+        <label for="senhaUsuario" name="senhaUsuario" id="senhaUsuario">Crie uma senha</label>
+        <br>
+        <input type="password" name="senhaUsuario" id="senhaUsuario" placeholder="Crie uma senha">
+        <br>
+        <label for="nomeUsuario" id="nomeUsuario" >Como devemos chamar você?</label>
+        <br>
+        <input type="text" name="nomeUsuario" id="nomeUsuario" placeholder="Insira um nome de perfil">
+        <br>
+        <label for="dataNascimento" name="dataNascimento" id="dataNascimento">Qual a sua data de nascumento?</label>
+        <br>
+        <input type="date" name="dataNascimento" id="dataNascimento">
+        <h4>Qual é o seu gênero?</h3>
+        <input type="radio" name="opcaoUsuario" value="Masculino"><label for="Masculino">Masculino</label>
+        <input type="radio" name="opcaoUsuario" value="Feminino"><label for="Feminino">Feminino</label>
+        <input type="radio" name="opcaoUsuario" value="naoDizer"><label for="naoDizer">Prefiro não dizer</label>
+        <br>
+        <input type="checkbox" name="semMarketing">
+        <span>Não quero receber mensagens de marketing do Spartan</span>
+        <br>
+        <input type="checkbox" name="compartilharDadosUsuario">
+        <span>Compartilhar meus dados cadastrais com os provedores de conteúdo
+            do Spartan para fins de marketing</span>
+        <br>
+            <input type="checkbox" name="aceiteTermos" id="aceiteTermos">
+            <span>Eu concordo com os <strong>Termos e Condições de Uso do Spartan</strong></span>
+        <input type="submit" value="Inscreva-se">
+
+         <span>Já tem uma conta? <u>Faça login</u></span>   
+
+    </form>
+    </div>  
+</body>
+</html>

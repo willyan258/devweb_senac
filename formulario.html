@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body{
+            background-color: #16161f;
+            color: white;
+            font-family: sans-serif;
+        }
+        form{
+            border-radius: 25px;
+            padding: 50px;
+            color: black;
+            width: 300px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula sobre formulários</h1>
+    <br>
+    <br>
+<!--
+    <form action="script.js">
+        <input type="text" name="nomeUser" id="nomeUser" value="Willyan">
+        <input type="password" placeholder="insira sua senha" >
+        
+        <br>
+        <br>
+
+        <input type="submit" name="" id="" value="Cadastrar">
+        <input type="radio" name="radioinput" value="masculino">
+        <input type="radio" name="radioinput" value="feminino">
+
+        <input type="checkbox" name="checkboxinput" id="checkboxinput" value="Titanic">
+        <input type="checkbox" name="checkboxinput" id="checkboxinput" value="Amreican psycho">
+        <input type="checkbox" name="checkboxinput" id="checkboxinput" value="Shrek">
+        <input type="checkbox" name="checkboxinput" id="checkboxinput" value="Dawn of the dead">
+
+        <input type="button" onclick="alert('olá')" value="Opa">
+        
+        <br>
+        <br>
+
+        <input type="date" name="" id="">
+        <input type="email" name="emailinput" id="emailinput">
+        <input type="number" name="numberinput" id="numberinput">
+
+        <br>
+        <br>
+
+        <label for="primeironome">Primeiro Nome</label>
+        <input type="text" name="primeironome" id="primeironome">
+        <br>
+        <select name="carros" id="carros">
+            <option value="Fusca">Fusca</option>
+            <option value="Gol quadrado">Gol quadrado</option>
+            <option value="Palio">Palio</option>
+            <option value="Kombi">Kombi</option>
+        </select>
+
+        <br>
+        
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+        <br>
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="primeironome">Primeiro Nome</label>
+            <input type="text" name="primeironome"><br>
+
+            <label for="ultimonome">Último Nome</label>
+            <input type="text" name="ultimonome"><br>
+
+        </fieldset>
+
+
+    </form>
+-->
+
+    <form action="">
+        <label for="nomeUsuario" id="nomeUsuario" >Nome</label>
+        <br>
+        <input type="text" name="nomeUsuario" id="nomeUsuario" placeholder="Seu nome">
+        <br>
+        <label for="emailUsuario" name="" id="emailUsuario">Email</label>
+        <br>
+        <input type="email" name="emailUsuario" id="emailUsuario" placeholder="Seu email">
+        <br>
+        <label for="senhaUsuario" name="senhaUsuario" id="senhaUsuario">Senha</label>
+        <br>
+        <input type="password" name="senhaUsuario" id="senhaUsuario" placeholder="Sua senha">
+        <br>
+        <h3>Você está no Brasil?</h3>
+        <br>
+        <input type="radio" name="opcaoUsuario" value="Sim"><label for="Sim">Sim</label>
+        <input type="radio" name="opcaoUsuario" value="Não"><label for="Não">Não</label>
+        <br>
+        <label for="opcaoPaisUsuario" name="opcaoPaisUsuario">País</label>
+        <select name="pais">
+            <option value="Brasil">Brasil</option>
+            <option value="Qatar">Qatar</option>
+            <option value="México">México</option>
+            <option value="Cazaquistão">Cazaquistão</option>
+        </select>
+        <br>
+        <br>
+        <label for="telefoneUsuario" name="telefoneUsuario">Telefone</label>
+        <br>
+        <input type="number" name="ddtelefone" placeholder="DDI"><input type="tel" name="telefoneUsuario" placeholder="Cód. Área + Telefone">
+        <br>
+        <br>
+        <input type="checkbox" name="concordeInfos"><span>Li e concordo com os termos da <strong>política de privacidade</strong></span>
+        <br>
+        <input type="submit" value="Cadastrar">
+    </form>
+
+</body>
+</html>
