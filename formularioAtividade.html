@@ -26,18 +26,25 @@
             align-items: center;
         }
         .form form{
+            width: 35vw;
             border-radius: 25px;
             padding: 50px;
             color: black;
-            width: 300px;
             background-color: white;
             text-align: justify;
+            box-sizing: border-box;
             
         }
-
+       
         .label-test {
             font-family: sans-serif;
-
+            font-size: large;
+            text-align: left;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px #16161f;
+            display: block;
+            width: 80%;
         }
         
         body{
@@ -50,47 +57,28 @@
 </head>
 <body>
 
-
         <div class="headerLogo"> <img src="source/img/spartanLogo.png" alt="Logo do Spartan"></div>
     
     <div class="form">
     <form action="">
         <label class="label-test" for="emailUsuario" name="" id="emailUsuario">Qual é o seu e-mail?</label>
-        <br>
         <input class="label-test" type="email" name="emailUsuario" id="emailUsuario" placeholder="Insira seu e-mail">
-        <br>
-        <label for="emailUsuario" name="" id="emailUsuario">Confirme seu e-mail</label>
-        <br>
-        <input type="emailConfirmar" name="emailConfirmar" id="emailConfirmar" placeholder="Insira o e-mail novamente">
-        <br>
-        <label for="senhaUsuario" name="senhaUsuario" id="senhaUsuario">Crie uma senha</label>
-        <br>
-        <input type="password" name="senhaUsuario" id="senhaUsuario" placeholder="Crie uma senha">
-        <br>
-        <label for="nomeUsuario" id="nomeUsuario" >Como devemos chamar você?</label>
-        <br>
-        <input type="text" name="nomeUsuario" id="nomeUsuario" placeholder="Insira um nome de perfil">
-        <br>
-        <label for="dataNascimento" name="dataNascimento" id="dataNascimento">Qual a sua data de nascumento?</label>
-        <br>
-        <input type="date" name="dataNascimento" id="dataNascimento">
-        <h4>Qual é o seu gênero?</h3>
-        <input type="radio" name="opcaoUsuario" value="Masculino"><label for="Masculino">Masculino</label>
-        <input type="radio" name="opcaoUsuario" value="Feminino"><label for="Feminino">Feminino</label>
-        <input type="radio" name="opcaoUsuario" value="naoDizer"><label for="naoDizer">Prefiro não dizer</label>
-        <br>
-        <input type="checkbox" name="semMarketing">
-        <span>Não quero receber mensagens de marketing do Spartan</span>
-        <br>
-        <input type="checkbox" name="compartilharDadosUsuario">
-        <span>Compartilhar meus dados cadastrais com os provedores de conteúdo
-            do Spartan para fins de marketing</span>
-        <br>
-            <input type="checkbox" name="aceiteTermos" id="aceiteTermos">
-            <span>Eu concordo com os <strong>Termos e Condições de Uso do Spartan</strong></span>
-        <input type="submit" value="Inscreva-se">
-
-         <span>Já tem uma conta? <u>Faça login</u></span>   
+        <label class="label-test" for="emailUsuario" name="" id="emailUsuario">Confirme seu e-mail</label>
+        <input class="label-test" type="emailConfirmar" name="emailConfirmar" id="emailConfirmar" placeholder="Insira o e-mail novamente">
+        <label class="label-test" for="senhaUsuario" name="senhaUsuario" id="senhaUsuario">Crie uma senha</label>
+        <input class="label-test" type="password" name="senhaUsuario" id="senhaUsuario" placeholder="Crie uma senha">
+        <label class="label-test" for="nomeUsuario" id="nomeUsuario" >Como devemos chamar você?</label>
+        <input class="label-test" type="text" name="nomeUsuario" id="nomeUsuario" placeholder="Insira um nome de perfil">
+        <label class="label-test" for="dataNascimento" name="dataNascimento" id="dataNascimento">Qual a sua data de nascumento?</label>
+        <input class="label-test" type="date" name="dataNascimento" id="dataNascimento">
+        <h4 class="label-test">Qual é o seu gênero?</h3>
+        <input class="labelR" type="radio" name="opcaoUsuario" value="Masculino"><label for="Masculino">Masculino</label>
+        <input class="labelR" type="radio" name="opcaoUsuario" value="Feminino"><label for="Feminino">Feminino</label>
+        <input class="labelR" type="radio" name="opcaoUsuario" value="naoDizer"><label for="naoDizer">Prefiro não dizer</label>
+        <input class="labelC" type="checkbox" name="semMarketing"><span>Não quero receber mensagens de marketing do Spartan</span>
+        <input class="labelC" type="checkbox" name="compartilharDadosUsuario"><span>Compartilhar meus dados cadastrais com os provedores de conteúdo do Spartan para fins de marketing</span>
+        <input class="labelC" type="checkbox" name="aceiteTermos" id="aceiteTermos"><span>Eu concordo com os <strong>Termos e Condições de Uso do Spartan</strong></span>
+        <input class="button"type="submit" value="Inscreva-se"><span>Já tem uma conta? <a href=""><u>Faça login</u></a></span>   
 
     </form>
     </div>  
