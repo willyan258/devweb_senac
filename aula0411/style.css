@@ -1,0 +1,58 @@
+h1{
+    padding: 20px;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+
+    color: #fff0ff;
+    text-align: center;
+    background-image: linear-gradient(#6a5acd, #708090);
+
+}
+
+h1:hover{
+    font-size: 2.4rem;
+}
+
+article > p{
+    background-color: yellow;
+}
+
+.capitular_article::first-letter{
+    font-size: 50px;
+}
+
+.capitular_article{
+    font-size: 16px;
+}
+
+/* .capitular_article::before{
+    content: 'olá';
+} */
+
+.identificadorarticle{
+    background-color: #ccc;
+}
+
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+a:visited{
+    color:yellowgreen
+}
