@@ -10,6 +10,9 @@ body {
 
 .header-top-nav{
     background-image: linear-gradient(180deg, #ccc, #fff , #ddd ) ;
+    position: fixed;
+    display: block;
+    width: 100vw;
 }
 
 .header-top-nav > h1 {
@@ -51,11 +54,11 @@ a:visited, a:link {
 
 .main-content {
     height: calc(100vh - 183px);
-    background-image: url('../source/img/codigo_2.jpg');
+    background-image: url('../source/img/contas.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+    padding-top: 183px;
 }
 
 .main-content-container-overlay {
@@ -83,7 +86,6 @@ a:visited, a:link {
 .img-main:hover {
     width: 560px;
     box-shadow: 15px 15px 25px #16161f;
-    
     transition: ease-in 0.2s;
 }
 
@@ -95,6 +97,7 @@ h2 {
 .article-content {
     display: block;
     text-align: center;
+   
 }
 
 .article-content p {
@@ -104,7 +107,125 @@ h2 {
     font-family: 'Montserrat';
     font-weight: 300;
     font-size: 16px;
+    overflow-y: scroll;
+    height: 250px;
+    
 }
-.test-div {
+
+.container-example {
+    width: 100vw;
+}
+
+.example {
     display: inline;
+    width: 20vw;
+    height: calc(100vh - 183px);
+    float: left;
+    font-family: 'Montserrat';
+    font-size: larger;
+    
+}
+
+.example2 {
+    display: inline-block;
+    width: 80vw;
+    height: calc(100vh - 183px);
+}
+
+.example ul {
+    text-align: center;
+    
+}
+
+.example ul li:nth-child(1){
+    font-weight: bold;
+}
+
+.middle-content {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-content {
+    display: block;
+    justify-content: center;
+    flex-basis: 150px;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+    margin: 40px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 0px 25px rgba(125,125,125,0.3);
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-middle-content {
+    display: inline-block;
+    background-color: rgba(255,140,135, 0.7);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.image-middle-content {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.image-middle-content img{
+    height: 200px;
+    width: 200px;
+   
+}
+
+.image-middle-content:hover{
+    cursor: pointer;
+    width: 210px;
+    height: 210px;
+    box-shadow: 15px 15px 25px #16161f;
+    transition: linear 0.4s;
+    border-radius: 15px;
+}
+
+.box-first {
+    
+    background-image: url('../source/img/img3.jpg');
+    background-size: cover;
+}
+.box-second {
+    
+    background-image: url('../source/img/imagem1.jpg');
+    background-size: cover;
+}
+
+.box-third {
+   
+    background-image: url('../source/img/img1.jpg');
+    background-size: cover;
+}
+
+.gradient {
+    background: linear-gradient(45deg, darkgoldenrod,bisque, coral);
+    background-size: 300% 300%;
+    animation: colors 5s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
