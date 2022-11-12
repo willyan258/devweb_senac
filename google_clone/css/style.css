@@ -28,29 +28,103 @@ body{
 
 .link {
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 12px;
     color: #393939;
     
 }
 
+.link:hover{
+    text-decoration: underline;
+    
+}
+
 .btn{
-    padding: 10px 15px;
+    padding: 10px 25px;
     border-radius: 5px;
     margin-left: 10px;
     background-color: #1a73e8;
     color: #fff;
+    text-decoration: none !important;
+    transition: 0.2s;
 }
 
+.btn:hover{
+    background-color: #2b59a4;
+}
+
+/* classe ou abrir seletor SVG */
 .icon{
-    margin: 8px;
-    color: #000;
-    width: 20px;
-    height: 20px;
+    padding: 8px;
+    fill: #5f6368;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: 0.2s;
+    margin-left: 10px;
+}
+
+.icon:hover{
+    background-color: rgba(200, 200, 200, 0.3);
+    
 }
 .main-content{
-    background-color: slateblue;
+    background-color: #ffa;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
+
+.input-search{
+    position: relative;
+    width: 25vw;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.input-text{
+    position: absolute;
+    top: 0;
+    width: 20vw;
+    height: 40px;
+    border: transparent;
+    outline: none;
+    margin-left: 40px;
+
+    color: rgba(0,0,0,.87);
+  
+   
+}
+
+.input-search:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+   
+}
+
+
+.botoes{
+    padding: 20px 16px 20px 16px;
+    display: flex;
+    width: 20vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+    
+}
+
+.main-btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+}
+
 
 .footer-content{
     background-color: chartreuse;
