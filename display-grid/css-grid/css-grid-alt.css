@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.lado1{
+    background-color: #F2DDB6;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.lado2{
+    background-color: #B50C09;
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
