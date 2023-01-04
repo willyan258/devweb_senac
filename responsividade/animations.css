@@ -1,0 +1,16 @@
+body{
+    background-color: plum;
+}
+
+.caixa{
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.caixa:before{
+    content: '';
+    position: absolute;
+    
+}
