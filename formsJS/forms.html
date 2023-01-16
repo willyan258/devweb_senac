@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #erro{
+            color: red;
+            display: none;
+        }
+
+        .verificacao{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post" name="frm_login">
+
+    <div>
+        <label for="usuario" ></label>
+        <input type="text" name="usuario" id="usuario">
+        <p id="erro">O nome precisa ser 'Leandro'</p>
+
+    </div>
+
+    <div>
+        <label for="senha"></label>
+        <input type="text"name="senha" id="senha" value="123">
+        
+    </div>
+
+    <div>
+        
+        <input type="submit" value="Entrar">
+        
+    </div>
+
+    <ul class="verificacao">
+        <li>Letras Minúsculas</li>
+        <li>Letras Maiúsculas</li>
+        <li>Números</li>
+        <li>Caracteres especiais</li>
+        
+    </ul>
+
+    </form> 
+
+    <script src="forms.js"></script>
+</body>
+</html>
